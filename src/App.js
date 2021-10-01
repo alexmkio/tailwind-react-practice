@@ -381,6 +381,115 @@ function App() {
           </svg>
         </button>
 
+        <h2>
+          Interactivity
+        </h2>
+
+        <section className="p-4">
+          <h3>
+            Cursor
+          </h3>
+          <button className="bg-gray-900 text-blue-100 p-4 rounded-xl shadow-lg cursor-auto">cursor-auto</button>
+          <button className="bg-gray-900 text-blue-100 p-4 rounded-xl shadow-lg cursor-default">cursor-default</button>
+          <button className="bg-gray-900 text-blue-100 p-4 rounded-xl shadow-lg cursor-pointer">cursor-pointer</button>
+          <button className="bg-gray-900 text-blue-100 p-4 rounded-xl shadow-lg cursor-wait">cursor-wait</button>
+          <button className="bg-gray-900 text-blue-100 p-4 rounded-xl shadow-lg cursor-text">cursor-text</button>
+          <button className="bg-gray-900 text-blue-100 p-4 rounded-xl shadow-lg cursor-move">cursor-move</button>
+          <button className="bg-gray-900 text-blue-100 p-4 rounded-xl shadow-lg cursor-help">cursor-help</button>
+          <button className="bg-gray-900 text-blue-100 p-4 rounded-xl shadow-lg cursor-not-allowed">cursor-not-allowed</button>
+        </section>
+
+        <section className="p-4">
+          <h3>
+            Resize
+          </h3>
+          <textarea className="resize-none border rounded-md" placeholder="resize-none"></textarea>
+          <textarea className="resize-y border rounded-md" placeholder="resize-y"></textarea>
+          <textarea className="resize-x border rounded-md" placeholder="resize-x"></textarea>
+          <textarea className="resize border rounded-md" placeholder="resize"></textarea>
+        </section>
+
+        <section className="p-4">
+          <h3>
+            Select
+          </h3>
+          <button className="bg-gray-200 p-4 rounded-xl shadow-lg select-all">select-all</button>
+          <button className="bg-gray-200 p-4 rounded-xl shadow-lg select-none">select-none</button>
+          <button className="bg-gray-200 p-4 rounded-xl shadow-lg select-text">select-text</button>
+          <button className="bg-gray-200 p-4 rounded-xl shadow-lg select-auto">select-auto</button>
+        </section>
+
+        <section className="p-4">
+          <h3>
+            fill-current text-purple-600
+          </h3>
+          <button className="bg-gray-200 p-4 rounded-xl shadow-lg">
+          <svg className="fill-current text-purple-600 w-6 h-6">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+            </svg>
+          </svg>
+        </button>
+        </section>
+
+        <section className="p-4">
+          <h3>
+            stroke-current text-purple-600
+          </h3>
+          <button className="bg-gray-200 p-4 rounded-xl shadow-lg">
+          <svg className="stroke-current text-purple-600 w-6 h-6">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+            </svg>
+          </svg>
+        </button>
+        </section>
+
+        <section className="p-4">
+          <h3>
+            stroke-0
+          </h3>
+          <button className="bg-gray-200 p-4 rounded-xl shadow-lg">
+          <svg className="stroke-current stroke-0 text-purple-600 w-12 h-12">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path d="M12 14l9-5-9-5-9 5 9 5z" />
+              <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+            </svg>
+          </svg>
+        </button>
+        </section>
+
+        <section className="p-4">
+          <h3>
+            stroke-1
+          </h3>
+          <button className="bg-gray-200 p-4 rounded-xl shadow-lg">
+          <svg className="stroke-current stroke-1 text-purple-600 w-12 h-12">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path d="M12 14l9-5-9-5-9 5 9 5z" />
+              <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+            </svg>
+          </svg>
+        </button>
+        </section>
+
+        <section className="p-4">
+          <h3>
+            stroke-2
+          </h3>
+          <button className="bg-gray-200 p-4 rounded-xl shadow-lg">
+          <svg className="stroke-current stroke-2 text-purple-600 w-12 h-12">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path d="M12 14l9-5-9-5-9 5 9 5z" />
+              <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+            </svg>
+          </svg>
+        </button>
+        </section>
+
         <section className="p-4">
           <h3>
             Responsive
