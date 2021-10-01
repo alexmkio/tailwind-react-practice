@@ -162,8 +162,8 @@ function App() {
           <p className="leading-loose">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, quia temporibus eveniet a libero incidunt suscipit laborum, rerum accusantium modi quidem, ipsam illum quis sed voluptatum quae eum fugit earum.</p>
         </section>
 
-        <div class="text-5xl font-extrabold">
-          <span class="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
+        <div className="text-5xl font-extrabold">
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
             Hello world
           </span>
         </div>
@@ -175,14 +175,49 @@ function App() {
           <input className="placeholder-blue-500 border-2" placeholder="placeholder-blue-500"></input>
         </section>
 
+        <h2>
+          Backgrounds
+        </h2>
+
+        <section className="p-4">
+          <h3>
+            Background Color
+          </h3>
+          <button className="bg-green-50">bg-green-50</button>
+          <button className="bg-green-100">bg-green-100</button>
+          <button className="bg-green-200">bg-green-200</button>
+          <button className="bg-green-300">bg-green-300</button>
+          <button className="bg-green-400">bg-green-400</button>
+          <button className="bg-green-500">bg-green-500</button>
+          <button className="bg-green-600">bg-green-600</button>
+          <button className="bg-green-700">bg-green-700</button>
+          <button className="bg-green-800">bg-green-800</button>
+        </section>
+
+        <section className="p-4">
+          <h3>
+            Background Opacity
+          </h3>
+          <button className="bg-purple-600 bg-opacity-5">bg-opacity-5</button>
+          <button className="bg-purple-600 bg-opacity-10">bg-opacity-10</button>
+          <button className="bg-purple-600 bg-opacity-20">bg-opacity-20</button>
+          <button className="bg-purple-600 bg-opacity-25">bg-opacity-25</button>
+          <button className="bg-purple-600 bg-opacity-30">bg-opacity-30</button>
+          <button className="bg-purple-600 bg-opacity-40">bg-opacity-40</button>
+          <button className="bg-purple-600 bg-opacity-50">bg-opacity-50</button>
+          <button className="bg-purple-600 bg-opacity-60">bg-opacity-60</button>
+          <button className="bg-purple-600 bg-opacity-70">bg-opacity-70</button>
+          <button className="bg-purple-600 bg-opacity-75">bg-opacity-75</button>
+          <button className="bg-purple-600 bg-opacity-80">bg-opacity-80</button>
+          <button className="bg-purple-600 bg-opacity-90">bg-opacity-90</button>
+          <button className="bg-purple-600 bg-opacity-95">bg-opacity-95</button>
+        </section>
+
         <section className="p-4">
           <h3>
             Responsive
           </h3>
-          <p className="
-            text-xs italic uppercase
-            lg:text-6xl lg:not-italic lg:lowercase
-          ">The quick brown fox</p>
+          
         </section>
       </main>
     </>
