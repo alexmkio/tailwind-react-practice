@@ -1,5 +1,6 @@
 {
   "name": "tailwind-react-practice",
+  "homepage": "https://alexmkio.github.io/tailwind-react-practice/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
