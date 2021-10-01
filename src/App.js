@@ -215,6 +215,93 @@ function App() {
 
         <section className="p-4">
           <h3>
+            Padding
+          </h3>
+          <button className="bg-red-600 p-0">p-0</button>
+          <button className="bg-red-600 p-0.5">p-0.5</button>
+          <button className="bg-red-600 p-1">p-1</button>
+          <button className="bg-red-600 p-1.5">p-1.5</button>
+          <button className="bg-red-600 p-2">p-2</button>
+          <button className="bg-red-600 p-2.5">p-2.5</button>
+          <button className="bg-red-600 p-3">p-3</button>
+          <button className="bg-red-600 p-3.5">p-3.5</button>
+          <button className="bg-red-600 p-4">p-4</button>
+          <button className="bg-red-600 p-5">p-5</button>
+          <button className="bg-red-600 p-6">p-6</button>
+        </section>
+
+        <section className="p-4">
+          <h3>
+            Margin
+          </h3>
+          <button className="bg-yellow-600 m-0">m-0</button>
+          <button className="bg-yellow-600 m-0.5">m-0.5</button>
+          <button className="bg-yellow-600 m-1">m-1</button>
+          <button className="bg-yellow-600 m-1.5">m-1.5</button>
+          <button className="bg-yellow-600 m-2">m-2</button>
+          <button className="bg-yellow-600 m-2.5">m-2.5</button>
+          <button className="bg-yellow-600 m-3">m-3</button>
+          <button className="bg-yellow-600 m-3.5">m-3.5</button>
+          <button className="bg-yellow-600 m-4">m-4</button>
+          <button className="bg-yellow-600 m-5">m-5</button>
+          <button className="bg-yellow-600 m-6">m-6</button>
+        </section>
+
+        <section className="p-4">
+          <h3>
+            Borders
+          </h3>
+          <button className="bg-gray-200 p-4 border-blue-900 border-2">border-blue-900 border-2</button>
+          <button className="bg-gray-200 p-4 border-blue-900 border-4">border-blue-900 border-4</button>
+          <button className="bg-gray-200 p-4 border-blue-900 border-8">border-blue-900 border-8</button>
+        </section>
+
+        <section className="p-4">
+          <button className="bg-gray-200 p-4 border-blue-900 border-2 rounded-none">rounded-none</button>
+          <button className="bg-gray-200 p-4 border-blue-900 border-2 rounded-sm">rounded-sm</button>
+          <button className="bg-gray-200 p-4 border-blue-900 border-2 rounded">rounded</button>
+          <button className="bg-gray-200 p-4 border-blue-900 border-2 rounded-md">rounded-md</button>
+          <button className="bg-gray-200 p-4 border-blue-900 border-2 rounded-lg">rounded-lg</button>
+          <button className="bg-gray-200 p-4 border-blue-900 border-2 rounded-xl">rounded-xl</button>
+          <button className="bg-gray-200 p-4 border-blue-900 border-2 rounded-2xl">rounded-2xl</button>
+          <button className="bg-gray-200 p-4 border-blue-900 border-2 rounded-3xl">rounded-3xl</button>
+          <button className="bg-gray-200 p-4 border-blue-900 border-2 rounded-full">rounded-full</button>
+          <button className="bg-gray-200 border-blue-900 border-2 rounded-full py-3 px-6">rounded-full py-3 px-6</button>
+          <button className="bg-gray-200 border-blue-900 border-2 rounded-full h-24 w-24">rounded-full h-24 w-24</button>
+        </section>
+
+        <section className="p-4">
+          <button className="bg-gray-200 p-4 border-blue-900 border-2 border-dashed">border-dashed</button>
+          <button className="bg-gray-200 p-4 border-blue-900 border-2 border-dotted">border-dotted</button>
+          <button className="bg-gray-200 p-4 border-blue-900 border-4 border-double">border-double</button>
+        </section>
+
+        <section className="p-4">
+          <h3>
+            Shadow
+          </h3>
+          <button className="bg-gray-200 p-4 border-2 rounded-xl shadow-sm">shadow-sm</button>
+          <button className="bg-gray-200 p-4 border-2 rounded-xl shadow">shadow</button>
+          <button className="bg-gray-200 p-4 border-2 rounded-xl shadow-md">shadow-md</button>
+          <button className="bg-gray-200 p-4 border-2 rounded-xl shadow-lg">shadow-lg</button>
+          <button className="bg-gray-200 p-4 border-2 rounded-xl shadow-xl">shadow-xl</button>
+          <button className="bg-gray-200 p-4 border-2 rounded-xl shadow-2xl">shadow-2xl</button>
+          <button className="bg-gray-200 p-4 border-2 rounded-xl shadow-inner">shadow-inner</button>
+        </section>
+
+        <section className="p-4">
+          <h3>
+            https://tailwindcss.com/docs/divide-width
+          </h3>
+          <div className="grid grid-cols-3 divide-x-4 divide-green-500 justify-items-center">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+          </div>
+        </section>
+
+        <section className="p-4">
+          <h3>
             Responsive
           </h3>
           
