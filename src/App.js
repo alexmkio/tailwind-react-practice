@@ -280,13 +280,13 @@ function App() {
           <h3>
             Shadow
           </h3>
-          <button className="bg-gray-200 p-4 border-2 rounded-xl shadow-sm">shadow-sm</button>
-          <button className="bg-gray-200 p-4 border-2 rounded-xl shadow">shadow</button>
-          <button className="bg-gray-200 p-4 border-2 rounded-xl shadow-md">shadow-md</button>
-          <button className="bg-gray-200 p-4 border-2 rounded-xl shadow-lg">shadow-lg</button>
-          <button className="bg-gray-200 p-4 border-2 rounded-xl shadow-xl">shadow-xl</button>
-          <button className="bg-gray-200 p-4 border-2 rounded-xl shadow-2xl">shadow-2xl</button>
-          <button className="bg-gray-200 p-4 border-2 rounded-xl shadow-inner">shadow-inner</button>
+          <button className="bg-gray-200 p-4 rounded-xl shadow-sm">shadow-sm</button>
+          <button className="bg-gray-200 p-4 rounded-xl shadow">shadow</button>
+          <button className="bg-gray-200 p-4 rounded-xl shadow-md">shadow-md</button>
+          <button className="bg-gray-200 p-4 rounded-xl shadow-lg">shadow-lg</button>
+          <button className="bg-gray-200 p-4 rounded-xl shadow-xl">shadow-xl</button>
+          <button className="bg-gray-200 p-4 rounded-xl shadow-2xl">shadow-2xl</button>
+          <button className="bg-gray-200 p-4 rounded-xl shadow-inner">shadow-inner</button>
         </section>
 
         <section className="p-4">
@@ -299,6 +299,87 @@ function App() {
             <div>3</div>
           </div>
         </section>
+
+        <section className="p-4">
+          <h3>
+            Transitions
+          </h3>
+          <button className="p-4 border-2 border-yellow-900 rounded-xl shadow-lg transition duration-75 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:scale-110 hover:border-blue-900 hover:shadow-2xl">transition duration-75 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:scale-110</button>
+          <button className="p-4 border-2 border-yellow-900 rounded-xl shadow-lg transition duration-100 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:scale-110 hover:border-blue-900 hover:shadow-2xl">duration-100</button>
+          <button className="p-4 border-2 border-yellow-900 rounded-xl shadow-lg transition duration-150 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:scale-110 hover:border-blue-900 hover:shadow-2xl">duration-150</button>
+          <button className="p-4 border-2 border-yellow-900 rounded-xl shadow-lg transition duration-200 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:scale-110 hover:border-blue-900 hover:shadow-2xl">duration-200</button>
+          <button className="p-4 border-2 border-yellow-900 rounded-xl shadow-lg transition duration-300 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:scale-110 hover:border-blue-900 hover:shadow-2xl">duration-300</button>
+          <button className="p-4 border-2 border-yellow-900 rounded-xl shadow-lg transition duration-500 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:scale-110 hover:border-blue-900 hover:shadow-2xl">duration-500</button>
+          <button className="p-4 border-2 border-yellow-900 rounded-xl shadow-lg transition duration-700 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:scale-110 hover:border-blue-900 hover:shadow-2xl">duration-700</button>
+          <button className="p-4 border-2 border-yellow-900 rounded-xl shadow-lg transition duration-1000 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:scale-110 hover:border-blue-900 hover:shadow-2xl">duration-1000</button>
+        </section>
+
+        <section className="p-4">
+          <h3>
+            Ease direction
+          </h3>
+          <button className="p-4 border-2 border-yellow-900 rounded-xl shadow-lg transition duration-500 ease-linear bg-blue-600 hover:bg-red-600 transform hover:scale-110 hover:border-blue-900 hover:shadow-2xl">ease-linear</button>
+          <button className="p-4 border-2 border-yellow-900 rounded-xl shadow-lg transition duration-500 ease-in bg-blue-600 hover:bg-red-600 transform hover:scale-110 hover:border-blue-900 hover:shadow-2xl">ease-in</button>
+          <button className="p-4 border-2 border-yellow-900 rounded-xl shadow-lg transition duration-500 ease-out bg-blue-600 hover:bg-red-600 transform hover:scale-110 hover:border-blue-900 hover:shadow-2xl">ease-out</button>
+          <button className="p-4 border-2 border-yellow-900 rounded-xl shadow-lg transition duration-500 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:scale-110 hover:border-blue-900 hover:shadow-2xl">ease-in-out</button>
+        </section>
+
+        <section className="p-4">
+          <h3>
+            Delays
+          </h3>
+          <button className="p-4 border-2 border-yellow-900 rounded-xl shadow-lg transition delay-75 duration-500 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:scale-110 hover:border-blue-900 hover:shadow-2xl">delay-75</button>
+          <button className="p-4 border-2 border-yellow-900 rounded-xl shadow-lg transition delay-100 duration-500 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:scale-110 hover:border-blue-900 hover:shadow-2xl">delay-100</button>
+          <button className="p-4 border-2 border-yellow-900 rounded-xl shadow-lg transition delay-150 duration-500 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:scale-110 hover:border-blue-900 hover:shadow-2xl">delay-150</button>
+          <button className="p-4 border-2 border-yellow-900 rounded-xl shadow-lg transition delay-200 duration-500 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:scale-110 hover:border-blue-900 hover:shadow-2xl">delay-200</button>
+          <button className="p-4 border-2 border-yellow-900 rounded-xl shadow-lg transition delay-300 duration-500 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:scale-110 hover:border-blue-900 hover:shadow-2xl">delay-300</button>
+          <button className="p-4 border-2 border-yellow-900 rounded-xl shadow-lg transition delay-500 duration-500 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:scale-110 hover:border-blue-900 hover:shadow-2xl">delay-500</button>
+          <button className="p-4 border-2 border-yellow-900 rounded-xl shadow-lg transition delay-700 duration-500 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:scale-110 hover:border-blue-900 hover:shadow-2xl">delay-700</button>
+          <button className="p-4 border-2 border-yellow-900 rounded-xl shadow-lg transition delay-1000 duration-500 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:scale-110 hover:border-blue-900 hover:shadow-2xl">delay-1000</button>
+        </section>
+
+        <section className="p-4">
+          <h3>
+            Animations
+          </h3>
+          <button className="bg-yellow-600">
+            <svg className="animate-spin h-5 w-5 mr-3" viewBox="0 0 24 24">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+              </svg>
+            </svg>
+            Spin
+          </button>
+
+          <button className="p-4 border-2 border-yellow-900 rounded-xl shadow-lg transition duration-500 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:scale-110 hover:border-blue-900 hover:shadow-2xl">
+            <span className="flex h-3 w-3">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-purple-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-3 w-3 bg-purple-500"></span>
+            </span>
+            pulse
+          </button>
+        </section>
+
+        <div className="border border-blue-300 shadow rounded-md p-4 max-w-sm w-full mx-auto">
+          <div className="animate-pulse flex space-x-4">
+            <div className="rounded-full bg-blue-400 h-12 w-12"></div>
+            <div className="flex-1 space-y-4 py-1">
+              <div className="h-4 bg-blue-400 rounded w-3/4"></div>
+              <div className="space-y-2">
+                <div className="h-4 bg-blue-400 rounded"></div>
+                <div className="h-4 bg-blue-400 rounded w-5/6"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button className="bg-gray-200 p-4 rounded-xl shadow-lg">
+          <svg className="animate-bounce w-6 h-6">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+            </svg>
+          </svg>
+        </button>
 
         <section className="p-4">
           <h3>
