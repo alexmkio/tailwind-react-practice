@@ -492,9 +492,16 @@ function App() {
 
         <section className="p-4">
           <h3>
-            Responsive
+            Form addon
           </h3>
-          
+          <p>https://github.com/tailwindlabs/tailwindcss-forms</p>
+        </section>
+
+        <section className="p-4">
+          <h3>
+            Hero Icons
+          </h3>
+          <p>https://heroicons.com/</p>
         </section>
       </main>
     </>
